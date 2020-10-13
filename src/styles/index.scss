@@ -1,0 +1,103 @@
+
+@import 'https://fonts.googleapis.com/css?family=Press Start 2P';
+
+
+
+.game-box {
+  
+  background-size: cover;
+
+  width: 1600px;
+  height: 1000px;
+  
+  border: 1px solid black;
+  border-radius: 10px;
+  box-sizing: border-box;
+  box-shadow: 0 0 8px 0 rgba(0,0,0,0.25);
+  position: absolute;
+
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+
+}
+
+#samurai {
+  background-color: black;
+  background-size: cover;
+  z-index: -1;
+
+  width: 1600px;
+  height: 1000px;
+  border: 1px solid black;
+  border-radius: 10px;
+  position: absolute;
+
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+
+}
+
+
+body {
+    font-family: 'Press Start 2P';
+    font-size: 22px;
+}
+.fight {
+  /* background:url(../images/fight.png); */
+  
+
+  border-radius: 8px;
+  height: 50px;
+  position: absolute;
+  left: 50%;
+  top: 25%;
+  outline: none;
+  transform: translate(-50%, -50%);
+}
+
+
+.title {
+  font-family: 'Press Start 2P';
+  display: flex;
+  margin-left: 650px;
+  color: black;
+  font-weight: bold;
+  font-size: 30px;
+}
+
+.subheader {
+  display: -webkit-inline-box;
+  margin-left: 650px;
+  display: flex;
+}
+
+.git-image {
+  width: 8%;
+
+  margin-left: 300px;
+  margin-bottom: 20px;
+}
+
+.linkedin-image{
+  width: 8%;
+  margin-left: 15px;
+  margin-bottom: 20px;
+
+}
+
+.summary {
+  position: absolute;
+  left: 100px;
+  top: -125px;
+  width: 300px;
+  font-size: 20px;
+  display: flex;
+  margin-top: 500px;
+  p {
+    margin-top: 100px;
+  }
+
+}
+
