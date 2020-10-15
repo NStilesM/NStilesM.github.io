@@ -19,11 +19,12 @@
   left: 50%;
   top: 50%;
   transform: translate(-50%, -50%);
+  z-index: 999;
 
 }
 
 #samurai {
-  background-color: black;
+  background-color: white;
   background-size: cover;
   z-index: -1;
 
@@ -38,6 +39,34 @@
   transform: translate(-50%, -50%);
 
 }
+/*
+.leftredbox {
+  position: absolute;
+  width: 100px; 
+  height: 200px; 
+  border: red;
+  background-color: red;
+  z-index: 2;
+  opacity: 0.2;
+  top: 66%;
+  left: 42%;
+  border-radius: 30px;
+
+}
+.rightredbox {
+  position: absolute;
+  width: 100px; 
+  height: 200px; 
+  border: red;
+  background-color: red;
+  z-index: 2;
+  opacity: 0.2;
+  top: 66%;
+  left: 50%;
+  border-radius: 30px;
+
+}
+*/
 
 
 body {
@@ -49,41 +78,67 @@ body {
   
 
   border-radius: 8px;
-  height: 50px;
+  height: 100px;
   position: absolute;
   left: 50%;
-  top: 25%;
+  top: 50%;
   outline: none;
   transform: translate(-50%, -50%);
 }
 
 
+
+
 .title {
   font-family: 'Press Start 2P';
-  display: flex;
-  margin-left: 650px;
-  color: black;
+  position:absolute;
+  color: white;
   font-weight: bold;
-  font-size: 30px;
+  font-size: 50px;
+  left: 43%;
+  
 }
 
+.retry {
+  border-radius: 4px;
+  font-family: 'Press Start 2P';
+  background-color: black;  
+  border: none;
+  outline: none;
+  text-align: center;
+  text-decoration: none;
+  color: white;
+  font-size: 25px;
+  width: 500px;
+  height: 100px;
+}
+
+.retry:hover {
+  background-color: #4CAF50; /* Green */
+  color: white;
+}
+
+.whole {
+  background-color: black;
+}
 .subheader {
-  display: -webkit-inline-box;
-  margin-left: 650px;
-  display: flex;
+  color: white;
+  position:absolute;
+  left: 90%;
+  a {
+    position: relative;
+  }
 }
 
 .git-image {
-  width: 8%;
+  width: 20%;
 
-  margin-left: 300px;
-  margin-bottom: 20px;
+  
 }
 
 .linkedin-image{
-  width: 8%;
-  margin-left: 15px;
-  margin-bottom: 20px;
+  width: 20%;
+  
 
 }
 
@@ -91,9 +146,10 @@ body {
   position: absolute;
   left: 100px;
   top: -125px;
-  width: 300px;
+  width: 500px;
   font-size: 20px;
   display: flex;
+  color: white;
   margin-top: 500px;
   p {
     margin-top: 100px;
